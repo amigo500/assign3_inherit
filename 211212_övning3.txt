@@ -1,0 +1,21 @@
+Svar på frågor:
+
+3.2) Arv
+13. F: Om vi under utvecklingen kommer fram till att samtliga fåglar behöver ett nytt attribut, i
+vilken klass bör vi lägga det?
+
+Svar: i klassen Bird : Animal
+
+14. F: Om alla djur behöver det nya attributet, vart skulle man lägga det då?
+Svar: i klassen Animal
+
+3.3) Polymorphism
+
+9. F: Försök att lägga till en häst i listan av hundar. Varför fungerar inte det?
+Du kan bara skapa en ny häst i klassen för hästar, annars är det ju inte en häst i termer av de properties den har,
+det är i så fall en hund.
+
+10. F: Vilken typ måste listan vara för att alla klasser skall kunna lagras tillsammans?
+Det måste vara typ Animal för att kunna härbärgera alla typer av djur.
+
+
